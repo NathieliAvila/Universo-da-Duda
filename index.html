@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#111827">
+    <meta name="description"
+        content="Um pequeno universo de músicas, histórias e lembranças feito especialmente para Duda.">
+
+    <title>Universo da Duda ✦</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lato:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+        <a class="site-logo" href="#inicio" aria-label="Universo da Duda — início">
+            <span class="site-logo__symbol" aria-hidden="true">✦</span>
+            <span>universo da duda</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Navegação principal">
+            <a href="#playlist">Playlist</a>
+            <a href="#bilhetes">Bilhetes</a>
+            <a href="#carta">Carta</a>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+        <!-- 1. Abertura -->
+        <section class="hero" id="inicio" aria-labelledby="hero-title">
+            <div class="hero__sky" aria-hidden="true">
+                <span class="star star--one">✦</span>
+                <span class="star star--two">✧</span>
+                <span class="star star--three">·</span>
+                <span class="star star--four">✦</span>
+                <span class="star star--five">✧</span>
+                <span class="hero__moon"></span>
+            </div>
+
+            <div class="hero__content">
+                <p class="eyebrow">um presente feito com carinho</p>
+                <h1 id="hero-title">Um pequeno universo <em>para você.</em></h1>
+                <p class="hero__description">
+                    Algumas músicas, algumas palavras e um pedacinho do carinho
+                    que tenho por você reunidos em um só lugar.
+                </p>
+
+                <a class="button button--primary" href="#playlist">
+                    <span aria-hidden="true">♫</span>
+                    Entrar no universo
+                </a>
+
+                <p class="hero__signature">feito especialmente para Duda <span aria-hidden="true">✧</span></p>
+            </div>
+
+            <a class="scroll-cue" href="#playlist" aria-label="Rolar até a playlist">
+                <span aria-hidden="true">↓</span>
+            </a>
+        </section>
+
+        <!-- 2. Playlist -->
+        <section class="playlist-section section-shell" id="playlist" aria-labelledby="playlist-title">
+            <div class="section-heading">
+                <p class="eyebrow">capítulo um · trilha sonora</p>
+                <h2 id="playlist-title">Songs for your <em>universe.</em></h2>
+                <p>
+                    Uma coleção de músicas escolhidas pensando em você.
+                    Cada uma tem um motivo para estar aqui.
+                </p>
+            </div>
+
+            <article class="playlist-card" aria-label="Playlist de aniversário para Duda">
+                <div class="playlist-card__cover">
+                    <div class="cover-art" role="img" aria-label="Ilustração decorativa de uma lua e estrelas">
+                        <span class="cover-art__orbit cover-art__orbit--one"></span>
+                        <span class="cover-art__orbit cover-art__orbit--two"></span>
+                        <span class="cover-art__moon" aria-hidden="true"></span>
+                        <span class="cover-art__star cover-art__star--one" aria-hidden="true">✦</span>
+                        <span class="cover-art__star cover-art__star--two" aria-hidden="true">✧</span>
+                        <span class="cover-art__star cover-art__star--three" aria-hidden="true">✦</span>
+                        <span class="cover-art__caption">uma playlist<br>para você</span>
+                    </div>
+                </div>
+
+                <div class="playlist-card__info">
+                    <p class="eyebrow">uma mixtape digital</p>
+                    <h3>Para ouvir e sentir</h3>
+             
+                    <a class="text-link" href="#faixas">Descobrir as faixas <span aria-hidden="true">↘</span></a>
+                </div>
+            </article>
+
+            <div class="tracklist" id="faixas" aria-label="Lista de músicas">
+                <div class="tracklist__heading">
+                    <h3>Músicas que me lembram você</h3>
+                    <span class="track-count">01 — xx</span>
+                </div>
+
+
+                <ol class="track-list">
+
+                    <!-- Essa foi a primeira música que decidi colocar pois foi a primeira que me veio a mente quando pensei em você -->
+                    <li class="track" data-track="1">
+                        <span class="track__number" aria-hidden="true">01</span>
+
+                        <span class="track__art track__art--one" aria-hidden="true">✧</span>
+
+                        <span class="track__details">
+                            <span class="track__title">Mágico</span>
+                            <span class="track__artist">Marina Sena</span>
+                        </span>
+
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/4au0grwuQZg2UUVnh0sKW8?utm_source=generator&amp;si=c2cd6cf0ddbd4632"
+                            aria-label="Selecionar Nome da música">
+                            <span aria-hidden="true">▶</span>
+                        </button>
+                    </li>
+
+                    <li class="track" data-track="2">
+                        <span class="track__number" aria-hidden="true">02</span>
+
+                        <span class="track__art track__art--two" aria-hidden="true">✧</span>
+
+                        <span class="track__details">
+                            <span class="track__title">Te amar é massa demais</span>
+                            <span class="track__artist">ANAVITÓRIA</span>
+                        </span>
+
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/5PLtrIrBZytL4L11AyxOHR?utm_source=generator&si=86224c52ef4c4427"
+                            aria-label="Selecionar Nome da música">
+                            <span aria-hidden="true">▶</span>
+                        </button>
+                    </li>
+
+                    <li class="track" data-track="3">
+
+                        <!-- Acho que foi uma das primeiras músicas do HYBS que você me indicou, ainda escuto ela demais -->
+                        <span class="track__number" aria-hidden="true">03</span>
+
+                        <span class="track__art track__art--three" aria-hidden="true">☾</span>
+
+                        <span class="track__details">
+                            <span class="track__title">I Don't Wanna Go Home</span>
+                            <span class="track__artist">HYBS</span>
+                        </span>
+
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/1vwZAKX3bV9uDtyEZJFZkl?utm_source=generator&si=3ad35f46d0c9432e"
+                            aria-label="Selecionar Nome da música">
+                            <span aria-hidden="true">▶</span>
+                        </button>
+                    </li>
+
+                    <li class="track" data-track="4">
+                        <span class="track__number">04</span>
+                        <span class="track__art track__art--four" aria-hidden="true">✧</span>
+                        <span class="track__details">
+                            <span class="track__title">Minha Vida</span>
+                            <span class="track__artist">Rita Lee</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/2OIDEIfnVoVUtFnhlasLqf"
+                            aria-label="Selecionar música 4">▶</button>
+                    </li>
+
+
+                    
+
+                    <!-- Pra esse climinha de psicose política e quase ditadura, praticamente a trilha sonora de outubro -->
+                    <li class="track" data-track="5">
+                        <span class="track__number" aria-hidden="true">05</span>
+                        <span class="track__art track__art--three" aria-hidden="true">✦</span>
+                        <span class="track__details">
+                            <span class="track__title">É preciso dar um jeito meu amigo</span>
+                            <span class="track__artist">Erasmo Carlos</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/1V1taPaEp2dntrUKCAnnw5?utm_source=generator&si=a6fa04b3fa844e4e"
+                            aria-label="Selecionar Nome da música">
+                            <span aria-hidden="true">▶</span>
+                        </button>
+                    </li>
+
+                    <li class="track" data-track="6">
+                        <span class="track__number">06</span>
+                        <span class="track__art track__art--five" aria-hidden="true">✵</span>
+                        <span class="track__details">
+                            <span class="track__title">Eu Sei Que Vou Te Amar</span>
+                            <span class="track__artist">Tom Jobim</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/7CRIoOb5ViF1CBFLcyTfMw"
+                            aria-label="Selecionar música 6">▶</button>
+                    </li>
+
+
+
+                    
+                    <li class="track" data-track="7">
+                        <span class="track__number">07</span>
+                        <span class="track__art track__art--three" aria-hidden="true">♡</span>
+                        <span class="track__details">
+                            <span class="track__title">Pelo Tempo Que Durar</span>
+                            <span class="track__artist">Marisa Monte</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/5sJJQxIfys0imGd4WhILm8"
+                            aria-label="Selecionar música 7">▶</button>
+                    </li>
+
+                    
+
+                    <li class="track" data-track="8">
+                        <span class="track__number">08</span>
+                        <span class="track__art track__art--one" aria-hidden="true">✦</span>
+                        <span class="track__details">
+                            <span class="track__title">Aquarela</span>
+                            <span class="track__artist">Toquinho</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/4LhxdvP3lfgH3ciOyO1BX1"
+                            aria-label="Selecionar música 8">▶</button>
+                    </li>
+
+                    
+                </ol>
+
+                <div class="tracklist__heading">
+                    <h3>Músicas que você me recomendou</h3>
+                    <span class="track-count">xx — xx</span>
+                </div>
+
+                <ol class="track-list">
+
+
+                    <li class="track" data-track="1">
+                        <span class="track__number" aria-hidden="true">01</span>
+
+                        <span class="track__art track__art--three" aria-hidden="true">☾</span>
+
+                        <span class="track__details">
+                            <span class="track__title">Anjos</span>
+                            <span class="track__artist">Venere Vai Venus</span>
+                        </span>
+
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/3tHfEsbQsvAdGQ2CUFeEx0?utm_source=generator&si=6917103f9aef451e"
+                            aria-label="Selecionar Nome da música">
+                            <span aria-hidden="true">▶</span>
+                        </button>
+                    </li>
+
+                    <li class="track" data-track="1">
+                        <span class="track__number" aria-hidden="true">xx</span>
+
+                        <span class="track__art track__art--one" aria-hidden="true">✧</span>
+
+                        <span class="track__details">
+                            <span class="track__title">Pressa</span>
+                            <span class="track__artist">Lupa, The Mönic</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/6SUcH8xNGo9P4pop5WuWXG?utm_source=generator&si=e2756ce924a6496f"
+                            aria-label="Selecionar Nome da música">
+                            <span aria-hidden="true">▶</span>
+                        </button>
+                    </li>
+
+                    <li class="track" data-track="1">
+                        <span class="track__number" aria-hidden="true">xx</span>
+
+                        <span class="track__art track__art--two" aria-hidden="true">✧</span>
+
+                        <span class="track__details">
+                            <span class="track__title">Calma</span>
+                            <span class="track__artist">Maglore</span>
+                        </span>
+
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/48S0J3rQZ0GCX3XlO6WLkU?utm_source=generator&si=08c1796b606340d4"
+                            aria-label="Selecionar Nome da música">
+                            <span aria-hidden="true">▶</span>
+                        </button>
+                    </li>
+                    <li class="track" data-track="2">
+                        <span class="track__number" aria-hidden="true">01</span>
+                        <span class="track__art track__art--two" aria-hidden="true">♫</span>
+                        <span class="track__details">
+                            <span class="track__title">With Love</span>
+                            <span class="track__artist">HARBOUR</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/4y2HyoqQh1IjK50qlc7lL9?utm_source=generator&si=9df303edc2f642bb"
+                            aria-label="Selecionar Nome da música">
+                            <span aria-hidden="true">▶</span>
+                        </button>
+                    </li>
+                    <li class="track" data-track="1">
+                        <span class="track__number" aria-hidden="true">xx</span>
+
+                        <span class="track__art track__art--one" aria-hidden="true">✧</span>
+
+                        <span class="track__details">
+                            <span class="track__title">Float</span>
+                            <span class="track__artist">HARBOUR</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/3yev8y1jQ7Y7i8zQ5hBlgo?utm_source=generator&si=9323a38edf9f404b"
+                            aria-label="Selecionar Nome da música">
+                            <span aria-hidden="true">▶</span>
+                        </button>
+                    </li>
+
+                    <li class="track" data-track="1">
+                        <span class="track__number" aria-hidden="true">xx</span>
+
+                        <span class="track__art track__art--one" aria-hidden="true">✧</span>
+
+                        <span class="track__details">
+                            <span class="track__title">Recomeçar</span>
+                            <span class="track__artist">Tim Bernades</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/0r4GPkgHNBgqSJNLBUpQHh?utm_source=generator&si=5f6b0406ae6944fa">
+                            <span aria-hidden="true">▶</span>
+                        </button>
+                    </li>
+
+
+
+                    <li class="track">
+                        <!-- Você simplesmente me viciou em Lupa viu??? -->
+                        <span class="track__number">06</span>
+                        <span class="track__art track__art--two" aria-hidden="true">❋</span>
+                        <span class="track__details">
+                            <span class="track__title">Tudo Dnv</span>
+                            <span class="track__artist">Lupa</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/5P0yk52zKDYEcyCdPnvHCz"
+                            aria-label="Selecionar música 06">▶</button>
+                    </li>
+
+                    <li class="track">
+                        <span class="track__number">05</span>
+                        <span class="track__art track__art--five" aria-hidden="true">☄</span>
+                        <span class="track__details">
+                            <span class="track__title">Dear My All</span>
+                            <span class="track__artist">Mingginyu</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/2X71ww8wImSYbw4s0Mr2ur"
+                            aria-label="Selecionar música 05">▶</button>
+                    </li>
+
+                    <li class="track">
+                        <span class="track__number">17</span>
+                        <span class="track__art track__art--two" aria-hidden="true">☾</span>
+                        <span class="track__details">
+                            <span class="track__title">Golden</span>
+                            <span class="track__artist">HARBOUR</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/5CPKb3kvtK7z7hgiZBOjEC"
+                            aria-label="Selecionar música 17">▶</button>
+                    </li>
+
+                    <!-- Música deliciosa para ouvir no anoitecer -->
+                    <li class="track">
+                        <span class="track__number">07</span>
+                        <span class="track__art track__art--one" aria-hidden="true">☽</span>
+                        <span class="track__details">
+                            <span class="track__title">Vampire Disco</span>
+                            <span class="track__artist">Friday Pilots Club</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/6RWNyBKaBMzySlOmecgGF1"
+                            aria-label="Selecionar música 07">▶</button>
+                    </li>
+                </ol>
+
+
+
+
+                <div class="tracklist__heading">
+                    <h3>Achadinhos da sua playlist</h3>
+                    <span class="track-count">xx — xx</span>
+                </div>
+
+                <ol class="track-list">
+
+                    <li class="track" data-track="2">
+                        <span class="track__number" aria-hidden="true">01</span>
+                        <span class="track__art track__art--two" aria-hidden="true">☾</span>
+                        <span class="track__details">
+                            <span class="track__title">Anjo de papel</span>
+                            <span class="track__artist">Varanda</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/4re3UDVA7jvvAaWvtlSNGx?utm_source=generator&si=a5c79f62035c4ccb"
+                            aria-label="Selecionar Nome da música">
+                            <span aria-hidden="true">▶</span>
+                        </button>
+                    </li>
+
+                    <li class="track" data-track="2">
+                        <span class="track__number" aria-hidden="true">01</span>
+                        <span class="track__art track__art--two" aria-hidden="true">☾</span>
+                        <span class="track__details">
+                            <span class="track__title">When The Ligths Went Out</span>
+                            <span class="track__artist">TThe Braymores</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/album/7wosfrlfl2tPwKhtKL9PQy?utm_source=generator&si=fb8da281e41a4296"
+                            aria-label="Selecionar Nome da música">
+                            <span aria-hidden="true">▶</span>
+                        </button>
+                    </li>
+
+                    <li class="track" data-track="2">
+                        <span class="track__number" aria-hidden="true">01</span>
+                        <span class="track__art track__art--two" aria-hidden="true">♫</span>
+                        <span class="track__details">
+                            <span class="track__title">Aurora</span>
+                            <span class="track__artist">Jão</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/6PPB5jKQ257UqzP7tgmozP?utm_source=generator&si=e1835a3c0ec240ce"
+                            aria-label="Selecionar Nome da música">
+                            <span aria-hidden="true">▶</span>
+                        </button>
+                    </li>
+
+                    
+
+                     <li class="track">
+                        <span class="track__number">02</span>
+                        <span class="track__art track__art--two" aria-hidden="true">☾</span>
+                        <span class="track__details">
+                            <span class="track__title">Freakin' Out</span>
+                            <span class="track__artist">Dexter and The Moonrocks</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/2LSltDwOzq2yoBliFUnY41"
+                            aria-label="Selecionar música 02">▶</button>
+                    </li>
+
+                    
+
+                    <li class="track">
+                        <span class="track__number">xx</span>
+                        <span class="track__art track__art--one" aria-hidden="true">✧</span>
+                        <span class="track__details">
+                            <span class="track__title">Brasil de Quem? 6</span>
+                            <span class="track__artist">Sid, Ugo Ludovico</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/26u09Z7pXlfYxOCdVUvVi4"
+                            aria-label="Selecionar música 18">▶</button>
+                    </li>
+
+                     <!-- 11 — Primeira música do Palace que ouvi -->
+                    <li class="track">
+                        <span class="track__number">11</span>
+                        <span class="track__art track__art--two" aria-hidden="true">♧</span>
+                        <span class="track__details">
+                            <span class="track__title">Dream On</span>
+                            <span class="track__artist">Palace</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/648HgjnfsGe0e1SHa05kFS"
+                            aria-label="Selecionar música 11">▶</button>
+                    </li>
+
+                    <li class="track">
+                        <span class="track__number">27</span>
+                        <span class="track__art track__art--two" aria-hidden="true">☽</span>
+                        <span class="track__details">
+                            <span class="track__title">Take It Slow</span>
+                            <span class="track__artist">Saint Motel</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/1L1cxfBMQs7jsphhXdoCj6"
+                            aria-label="Selecionar música 27">▶</button>
+                    </li>
+
+                    
+
+                    <li class="track">
+                        <span class="track__number">16</span>
+                        <span class="track__art track__art--three" aria-hidden="true">❋</span>
+                        <span class="track__details">
+                            <span class="track__title">Little Miami</span>
+                            <span class="track__artist">HARBOUR, Enrose</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/1X6MYZblqyDKdwtAZDUQZ7"
+                            aria-label="Selecionar música 16">▶</button>
+                    </li>
+
+                    <li class="track">
+                        <span class="track__number">25</span>
+                        <span class="track__art track__art--four" aria-hidden="true">❈</span>
+                        <span class="track__details">
+                            <span class="track__title">Supremacy</span>
+                            <span class="track__artist">Muse</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/40pPI2TbaYSZlKfV44HRjn"
+                            aria-label="Selecionar música 25">▶</button>
+                    </li>
+
+                    <li class="track">
+                        <span class="track__number">26</span>
+                        <span class="track__art track__art--three" aria-hidden="true">❋</span>
+                        <span class="track__details">
+                            <span class="track__title">Discos</span>
+                            <span class="track__artist">Não Existe Saudade em Inglês</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/4VJCBYSAmvPKPLY4yNsmD4"
+                            aria-label="Selecionar música 26">▶</button>
+                    </li>
+
+                    <li class="track">
+                        <span class="track__number">15</span>
+                        <span class="track__art track__art--five" aria-hidden="true">☄</span>
+                        <span class="track__details">
+                            <span class="track__title">Wait & See</span>
+                            <span class="track__artist">Saint Motel</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/16FuuShExzcN9bTCNdhNuF"
+                            aria-label="Selecionar música 15">▶</button>
+                    </li>
+
+                    <li class="track">
+                        <span class="track__number">20</span>
+                        <span class="track__art track__art--four" aria-hidden="true">❀</span>
+                        <span class="track__details">
+                            <span class="track__title">Leva e Vem</span>
+                            <span class="track__artist">Varanda</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/3rRT6OBVstKVEIjO5uyyJr"
+                            aria-label="Selecionar música 20">▶</button>
+                    </li>
+
+                    <!-- 21 -->
+                    <li class="track">
+                        <span class="track__number">21</span>
+                        <span class="track__art track__art--two" aria-hidden="true">♧</span>
+                        <span class="track__details">
+                            <span class="track__title">fuji[富士山].rom</span>
+                            <span class="track__artist">Tangolo Mangos, Colibri</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/2aKXLcsjfhPoQ7eCXDaIfL"
+                            aria-label="Selecionar música 21">▶</button>
+                    </li>
+
+
+                    <li class="track">
+                        <span class="track__number">22</span>
+                        <span class="track__art track__art--three" aria-hidden="true">♫</span>
+                        <span class="track__details">
+                            <span class="track__title">Animal</span>
+                            <span class="track__artist">KATSEYE</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/3ouNEk0tv5TTi8VWMe1xbX"
+                            aria-label="Selecionar música 22">▶</button>
+                    </li>
+
+                   
+                    
+
+                    <!-- 10 — música que te leva para outra dimensão -->
+                    <li class="track">
+                        <span class="track__number">10</span>
+                        <span class="track__art track__art--five" aria-hidden="true">☼</span>
+                        <span class="track__details">
+                            <span class="track__title">Alucinação Infinita</span>
+                            <span class="track__artist">Venere Vai Venus</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/07a7AFqia9aZQ1rRKVUGbs"
+                            aria-label="Selecionar música 10">▶</button>
+                    </li>
+
+                    <li class="track">
+                        <span class="track__number">xx</span>
+                        <span class="track__art track__art--five" aria-hidden="true">✦</span>
+                        <span class="track__details">
+                            <span class="track__title">Baterias de Emergência</span>
+                            <span class="track__artist">Daparte</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/4trZ18AP6XAR0tGiZzviAt"
+                            aria-label="Selecionar música 19">▶</button>
+                    </li>
+
+                    
+
+                    <!-- 24 -->
+                    <li class="track">
+                        <span class="track__number">24</span>
+                        <span class="track__art track__art--one" aria-hidden="true">✧</span>
+                        <span class="track__details">
+                            <span class="track__title">Verona</span>
+                            <span class="track__artist">Muse</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/35E8of4u0B5PI8o4Hy0tWq"
+                            aria-label="Selecionar música 24">▶</button>
+                    </li>
+
+                    <!-- 25 -->
+                    <li class="track">
+                        <span class="track__number">25</span>
+                        <span class="track__art track__art--four" aria-hidden="true">❈</span>
+                        <span class="track__details">
+                            <span class="track__title">Supremacy</span>
+                            <span class="track__artist">Muse</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/40pPI2TbaYSZlKfV44HRjn"
+                            aria-label="Selecionar música 25">▶</button>
+                    </li>
+
+            
+                    
+            
+                    
+
+                    <!-- 28 -->
+                    <li class="track">
+                        <span class="track__number">28</span>
+                        <span class="track__art track__art--five" aria-hidden="true">☄</span>
+                        <span class="track__details">
+                            <span class="track__title">expectations</span>
+                            <span class="track__artist">Olivia Rodrigo, Chappel Roan</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/3XmwAZpIMNpTJy8faw3ajD"
+                            aria-label="Selecionar música 28">▶</button>
+                    </li>
+
+                    <!-- 29 -->
+                    <li class="track">
+                        <span class="track__number">29</span>
+                        <span class="track__art track__art--one" aria-hidden="true">✦</span>
+                        <span class="track__details">
+                            <span class="track__title">Lisboa</span>
+                            <span class="track__artist">ANAVITÓRIA, Lenine</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/2o2xhyri4aJUtgMGkf5P0J"
+                            aria-label="Selecionar música 29">▶</button>
+                    </li>
+
+                    <li class="track">
+                        <span class="track__number">12</span>
+                        <span class="track__art track__art--three" aria-hidden="true">❈</span>
+                        <span class="track__details">
+                            <span class="track__title">Eu vou</span>
+                            <span class="track__artist">O Terno</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/1Q4NBRzJem6ZgmhTrFSHI5"
+                            aria-label="Selecionar música 12">▶</button>
+                    </li>
+
+
+
+
+
+                </ol>
+
+                <div class="tracklist__heading">
+                    <h3>Encontrei te stalkeando</h3>
+                    <span class="track-count">xx — xx</span>
+                </div>
+                
+                <ol class="track-list">
+                    <li class="track">
+                        <span class="track__number">xx</span>
+                        <span class="track__art track__art--one" aria-hidden="true">✦</span>
+                        <span class="track__details">
+                            <span class="track__title">Kids In The Summer</span>
+                            <span class="track__artist">Joe P</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/7GYyEsKR5x0aTAybV2NH2B"
+                            aria-label="Selecionar música 01">▶</button>
+                    </li>
+
+                   
+                    <li class="track">
+                        <span class="track__number">03</span>
+                        <span class="track__art track__art--three" aria-hidden="true">♫</span>
+                        <span class="track__details">
+                            <span class="track__title">Passeios Noturnos</span>
+                            <span class="track__artist">Jão</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/7Lp0nZcKuWIlewH4e7JOIL"
+                            aria-label="Selecionar música 03">▶</button>
+                    </li>
+
+
+                    <li class="track">
+                        <span class="track__number">04</span>
+                        <span class="track__art track__art--four" aria-hidden="true">✧</span>
+                        <span class="track__details">
+                            <span class="track__title">Used to Be in Love</span>
+                            <span class="track__artist">The Jungle Giants</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/290xSzR8Ee9fm82poMg4od"
+                            aria-label="Selecionar música 04">▶</button>
+                    </li>
+
+             
+
+                    <!-- 08 -->
+                    <li class="track">
+                        <span class="track__number">08</span>
+                        <span class="track__art track__art--three" aria-hidden="true">❀</span>
+                        <span class="track__details">
+                            <span class="track__title">Eternamente</span>
+                            <span class="track__artist">Lua Dultra</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/4e8viVM9hXPasMMxCPXCuV"
+                            aria-label="Selecionar música 08">▶</button>
+                    </li>
+
+         
+                    <li class="track">
+                        <span class="track__number">09</span>
+                        <span class="track__art track__art--four" aria-hidden="true">✵</span>
+                        <span class="track__details">
+                            <span class="track__title">Deixar Pra Lá</span>
+                            <span class="track__artist">Supercombo</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/1Ct5WUj1wRTtqW10Ko9xbF"
+                            aria-label="Selecionar música 09">▶</button>
+                    </li>
+
+                    
+
+                    <li class="track">
+                        <span class="track__number">13</span>
+                        <span class="track__art track__art--one" aria-hidden="true">⌕</span>
+                        <span class="track__details">
+                            <span class="track__title">Sinto Tudo, Sinto Nada</span>
+                            <span class="track__artist">Boca Elétrica</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/1pSHAHiVlh6UKBUnMEMsm5"
+                            aria-label="Selecionar música 13">▶</button>
+                    </li>
+
+                    <li class="track">
+                        <span class="track__number">08</span>
+                        <span class="track__art track__art--three" aria-hidden="true">❀</span>
+                        <span class="track__details">
+                            <span class="track__title">Belo Horizonte</span>
+                            <span class="track__artist">Daparte, Ana Caetano</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/2qQPZLa4lqOkKPAlZ8ghsr?utm_source=generator&si=fcaa227684cc44ef"
+                            aria-label="Selecionar música 08">▶</button>
+                    </li>
+
+
+                    <li class="track">
+                        <span class="track__number">23</span>
+                        <span class="track__art track__art--five" aria-hidden="true">☼</span>
+                        <span class="track__details">
+                            <span class="track__title">Pileque de Poeta</span>
+                            <span class="track__artist">Pitty</span>
+                        </span>
+                        <button class="track__play" type="button"
+                            data-spotify-src="https://open.spotify.com/embed/track/0bRTPRtcjt4OIQA3lTpHLf"
+                            aria-label="Selecionar música 23">▶</button>
+                    </li>    
+     
+
+                </ol>
+
+
+                <div class="spotify-player">
+                    <p class="spotify-player__label">
+                        <span aria-hidden="true">♫</span>
+                        Tocando no seu universo
+                    </p>
+
+                    <p id="spotify-status" role="status" aria-live="polite">
+                        Escolha uma música para ouvir.
+                    </p>
+
+                    <div id="spotify-embed"></div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <!-- 3. Bilhetes interativos: o JavaScript poderá abrir/fechar cada cartão -->
+        <section class="notes-section section-shell" id="bilhetes" aria-labelledby="notes-title">
+            <div class="section-heading">
+                <p class="eyebrow">capítulo dois · pequenas constelações</p>
+                <h2 id="notes-title">Algumas coisas <em>para guardar.</em></h2>
+                <p>
+                    Nem tudo precisa virar uma grande carta.
+                    Às vezes, um pequeno bilhete já diz bastante.
+                </p>
+            </div>
+
+            <div class="notes-grid">
+                <details class="note-card note-card--paper">
+                    <summary>
+                        <span class="note-card__icon" aria-hidden="true">✦</span>
+                        <span class="note-card__title">Pequenas coisas</span>
+                        <span class="note-card__hint">um bilhete para abrir</span>
+                        <span class="note-card__toggle" aria-hidden="true">+</span>
+                    </summary>
+                    <div class="note-card__content">
+                        <p>
+                            Existem coisas pequenas que acabam virando lembranças enormes.
+                            Quero guardar algumas delas com você.
+                        </p>
+                        <p class="note-card__placeholder">Personalize este bilhete com uma lembrança de vocês.</p>
+                    </div>
+                </details>
+
+                <details class="note-card note-card--blue">
+                    <summary>
+                        <span class="note-card__icon" aria-hidden="true">☾</span>
+                        <span class="note-card__title">Nossos universos</span>
+                        <span class="note-card__hint">uma referência especial</span>
+                        <span class="note-card__toggle" aria-hidden="true">+</span>
+                    </summary>
+                    <div class="note-card__content">
+                        <p>
+                            Entre livros, músicas, personagens e teorias, sempre existe
+                            mais uma história para conversar.
+                        </p>
+                        <p class="note-card__placeholder">Adicione aqui uma referência que só ela entenderia.</p>
+                    </div>
+                </details>
+
+                <details class="note-card note-card--green">
+                    <summary>
+                        <span class="note-card__icon" aria-hidden="true">♡</span>
+                        <span class="note-card__title">Para você</span>
+                        <span class="note-card__hint">uma coisa que admiro</span>
+                        <span class="note-card__toggle" aria-hidden="true">+</span>
+                    </summary>
+                    <div class="note-card__content">
+                        <p>
+                            Hoje é uma boa desculpa para te lembrar que a sua presença
+                            faz diferença na vida de quem tem a sorte de te conhecer.
+                        </p>
+                        <p class="note-card__placeholder">Escreva aqui algo verdadeiro e específico sobre ela.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- 4. Carta final -->
+        <section class="letter-section section-shell" id="carta" aria-labelledby="letter-title">
+            <div class="letter">
+                <div class="letter__decoration" aria-hidden="true">✧</div>
+                <p class="eyebrow">último capítulo · com carinho</p>
+                <h2 id="letter-title">Antes de você ir...</h2>
+
+                <div class="letter__body">
+                    <p>Feliz aniversário, Duda! ♡</p>
+                    <p>
+                        Eu queria te dar algo que tivesse um pouquinho de mim,
+                        assim como a playlist que você me deu no Natal tinha um
+                        pouquinho de você.
+                    </p>
+                    <p>
+                        Então reuni algumas músicas e palavras neste pequeno espaço,
+                        para que você possa voltar aqui quando quiser.
+                    </p>
+                    <p>
+                        Espero que este novo ciclo te traga histórias incríveis,
+                        descobertas bonitas e muitas razões para continuar sendo você.
+                    </p>
+                    <p class="letter__signoff">Com carinho, <span>Nathieli</span></p>
+                </div>
+
+                <div class="letter__book">
+                    <span class="letter__book-icon" aria-hidden="true">⌑</span>
+                    <p>
+                        <span class="eyebrow">e a história continua...</span>
+                        Tem mais uma surpresa esperando por você fora da tela.
+                    </p>
+                </div>
+            </div>
+
+            <a class="back-to-top" href="#inicio">Voltar ao começo ↑</a>
+        </section>
+    </main>
+
+
+
+    <!-- Músicas que monitorei você -->
+    <footer class="site-footer">
+        <p>feito com carinho, para o universo da Duda <span aria-hidden="true">✦</span></p>
+        <p class="site-footer__year">um presente de aniversário · 21 de outubro</p>
+    </footer>
+</body>
