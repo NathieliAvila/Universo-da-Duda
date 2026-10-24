@@ -50,3 +50,48 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const listas = document.querySelectorAll(".track-list");
+
+    listas.forEach((lista) => {
+        const musicas = lista.querySelectorAll(".track");
+        const cabecalho = lista.previousElementSibling;
+
+        musicas.forEach((musica, indice) => {
+            const numero = String(indice + 1).padStart(2, "0");
+
+            // Atualiza o número exibido na música
+            const numeroElemento = musica.querySelector(".track__number");
+
+            if (numeroElemento) {
+                numeroElemento.textContent = numero;
+            }
+
+            // Mantém o atributo data-track sincronizado
+            musica.dataset.track = indice + 1;
+
+            // Atualiza o nome acessível do botão
+            const botao = musica.querySelector(".track__play");
+
+            if (botao) {
+                botao.setAttribute(
+                    "aria-label",
+                    `Selecionar música ${numero}`
+                );
+            }
+        });
+
+        // Atualiza a quantidade de músicas da categoria
+        if (cabecalho?.classList.contains("tracklist__heading")) {
+            const contador = cabecalho.querySelector(".track-count");
+
+            if (contador) {
+                const quantidade = String(musicas.length).padStart(2, "0");
+                contador.textContent = `${quantidade} faixas`;
+            }
+        }
+    });
+});

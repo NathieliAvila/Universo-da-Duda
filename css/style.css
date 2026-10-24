@@ -649,6 +649,10 @@ section {
     border-bottom: 1px solid rgba(240, 231, 213, 0.08);
 }
 
+.track:last-child{
+    border-bottom: 0;
+    margin-bottom: 20px;
+}
 .track__number {
     color: #999D9E;
     font-size: 0.72rem;
